@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 
+# Trivial deploy-touch update to validate Streamlit auto-redeploy.
 pd.set_option('future.no_silent_downcasting', True)
 
 st.title('Combine Adopters, Fosters, and Donors Email Lists')
